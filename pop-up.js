@@ -1,8 +1,8 @@
-var button = document.querySelector('.examination-button')
+var btn = document.querySelector('.examination-button')
 var popUp = document.querySelector('.pop-up')
 var closeBtn = document.querySelector('.pop-up-close')
 
-button.addEventListener("click", function (_event) {
+btn.addEventListener("click", function (_event) {
     event.preventDefault();
     popUp.classList.remove('pop-up-hidden')
     document.body.style.position = 'fixed';
