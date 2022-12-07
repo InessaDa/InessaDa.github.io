@@ -2,8 +2,8 @@
     font-family: "Lato";
     font-style: normal;
     font-weight: 400;
-    src: url(/font/latoregular.woff) format(woff),
-        url(/font/latobold.woff) format(woff);
+    src: url(latoregular.woff) format(woff),
+        url(latobold.woff) format(woff);
   }
 
   html { 
