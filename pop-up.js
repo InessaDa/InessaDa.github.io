@@ -3,6 +3,7 @@ var popUp = document.querySelector('.pop-up')
 var closeBtn = document.querySelector('.pop-up-close')
 
 button.addEventListener("click", function (_event) {
+    event.preventDefault();
     popUp.classList.remove('pop-up-hidden')
   });
 
