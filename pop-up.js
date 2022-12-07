@@ -6,6 +6,7 @@ button.addEventListener("click", function (_event) {
     event.preventDefault();
     popUp.classList.remove('pop-up-hidden')
     document.body.style.position = 'fixed';
+    document.body.style.paddingRight = '17px';
   });
 
   closeBtn.addEventListener("click", function (_event) {
