@@ -2,8 +2,8 @@
     font-family: "Lato";
     font-style: normal;
     font-weight: 400;
-    src: url(latoregular.woff) format(woff),
-        url(latobold.woff) format(woff);
+    src: url(/font/latoregular.woff) format(woff),
+        url(/font/latobold.woff) format(woff);
   }
 
   html { 
@@ -503,7 +503,8 @@
         transition: all .35s;
       }
       .tab input[type=checkbox] + label::after {
-        content: "v";
+        content: "\2B9F";
+        color: #186CB9;
       }
       .tab input[type=radio] + label::after {
         content: "\25BC";
@@ -1105,7 +1106,8 @@
         transition: all .35s;
       }
       .tab input[type=checkbox] + label::after {
-        content: "v";
+        content: "\2B9F";
+        color: #186CB9;
       }
       .tab input[type=radio] + label::after {
         content: "\25BC";
@@ -1724,7 +1726,8 @@
         transition: all .35s;
       }
       .tab input[type=checkbox] + label::after {
-        content: "v";
+        content: "\2B9F";
+        color: #186CB9;
       }
       .tab input[type=radio] + label::after {
         content: "\25BC";
