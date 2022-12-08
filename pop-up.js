@@ -12,4 +12,5 @@ btn.addEventListener("click", function (_event) {
   closeBtn.addEventListener("click", function (_event) {
     popUp.classList.add('pop-up-hidden')
       document.body.style.position = '';
+      document.body.style.paddingRight = '0px';
   });
